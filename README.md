@@ -55,7 +55,7 @@ below puts that **folder** (with `SKILL.md` directly inside it) where your agent
 ### Claude Code — with the Skills CLI (quickest)
 
 ```bash
-npx skills add Paulzhub/immersive-screen-interactions
+npx skills add Paulzhub/immersive-scene-interactions
 ```
 
 Add `-g` to install it for every project rather than just the current one.
@@ -68,7 +68,7 @@ Clone the repo and copy the skill folder into your personal skills folder
 macOS / Linux:
 
 ```bash
-git clone https://github.com/Paulzhub/immersive-screen-interactions.git
+git clone https://github.com/Paulzhub/immersive-scene-interactions.git
 mkdir -p ~/.claude/skills
 cp -r immersive-screen-interactions/immersive-scene-interactions ~/.claude/skills/
 ```
@@ -76,9 +76,9 @@ cp -r immersive-screen-interactions/immersive-scene-interactions ~/.claude/skill
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/Paulzhub/immersive-screen-interactions.git
+git clone https://github.com/Paulzhub/immersive-scene-interactions.git
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
-Copy-Item -Recurse immersive-screen-interactions\immersive-scene-interactions "$env:USERPROFILE\.claude\skills\"
+Copy-Item -Recurse immersive-scene-interactions\immersive-scene-interactions "$env:USERPROFILE\.claude\skills\"
 ```
 
 To share it with a team through one project instead, copy the folder to
