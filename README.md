@@ -126,3 +126,7 @@ which **tiers** you want, the **navigation model** (step, scroll or hybrid), and
 
 Issues and pull requests are welcome. Keep `SKILL.md` short. Put detail in a
 `references/` file and add it to the reference index in `SKILL.md`.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
